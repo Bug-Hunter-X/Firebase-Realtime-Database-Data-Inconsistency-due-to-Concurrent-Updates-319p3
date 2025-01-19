@@ -1,0 +1,3 @@
+# Firebase Realtime Database: Concurrent Update Race Condition
+
+This repository demonstrates a common issue in Firebase Realtime Database: data inconsistency arising from unsynchronized concurrent updates.  The `bug.js` file shows code that leads to this problem. The `bugSolution.js` file shows how to resolve this using transactions or optimistic locking to ensure data integrity.  Read the detailed explanation in the `bug.js` file comments.
